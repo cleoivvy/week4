@@ -1,0 +1,24 @@
+h1{
+    background-color: aqua;
+    color:blueviolet;
+    padding-block: 50px;
+    padding-inline: 50px;
+    border-radius:80px;
+    border-block: double crimson;
+    border-block-start-style: dotted;
+    border-block-end-style: dotted;
+}
+section:first-of-type{
+    background-image: repeating-linear-gradient(45deg, blue, orange);
+    border-inline-end-style: dotted;
+    border-inline-start-style:dashed ;
+    border-radius: 30px;
+    border-block-start: 20px solid yellow;
+    border-block-end: 20px solid pink;
+    border-block-end-style: double;
+    border-block-start-style:double;
+}
+section:nth-of-type(2n){
+    background-image:repeating-radial-gradient(blue);
+
+}
