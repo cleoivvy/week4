@@ -31,7 +31,14 @@ section{
  p+p{
      letter-spacing: 15px ;
      position:relative; top: 10px; left: 10px; margin-left: 10px; margin-right:10px ; 
+     margin-top: 10px;
 } 
+
+p input{
+    border-radius: 30px;
+    background-color: #1f2630;
+    color: white;
+}
 section:nth-of-type(2){
     width: 30%;
     height: 300px;
@@ -57,5 +64,6 @@ section:nth-of-type(2){
 section:nth-of-type(2) input {
     border-radius: 20px;
     width: 350px;
+    background-color: grey;
 }
 
