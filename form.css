@@ -36,7 +36,7 @@ section{
 
 p input{
     border-radius: 30px;
-    background-color: #1f2630;
+    background-color: rgb(85, 81, 81);
     color: white;
 }
 section:nth-of-type(2){
