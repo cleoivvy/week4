@@ -42,21 +42,19 @@ section:nth-of-type(1) p input{
 
 section:nth-of-type(2){
     width: 30%;
-    height: 320px;
+    height: 400px;
     margin: 25px auto;
     border: 10px solid #1f2630;
     background-color:#1f2630;
     color: white;
     border-radius: 20px;
+    text-align: center;
 }
-section:nth-of-type(2){
-    background-repeat: no-repeat;
-    background-position: 150px 30px;
-    background-size: 60px;
+section:nth-of-type(2) div img{
+    border-radius: 100px;
+    width: 50px;  
 }
-section:nth-of-type(2){
-    background-image: url(./media/IMG_2601.jpeg);
-}
+
 section:nth-of-type(2) h1{
     margin-top: 40px;
     background-position: center;
